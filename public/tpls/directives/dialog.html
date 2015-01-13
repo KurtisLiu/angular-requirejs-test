@@ -1,0 +1,12 @@
+<div class="custom-dialog">
+  <div class="dialog-header" ng-class="{'dialog-draggable': dialog.draggable}">
+    <div class="dialog-title">{{dialog.title}}</div>
+    <div class="dialog-close" ng-click="dialog.close()">X</div>
+  </div>
+  <div class="dialog-body">
+    <div class="dialog-content" ng-transclude></div>
+  </div>
+  <div class="dialog-footer">
+    
+  </div>
+</div>

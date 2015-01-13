@@ -1,0 +1,19 @@
+<center>
+  <h1>用户管理列表</h1>
+  <div class="user-list">
+    <ul class="user-info" ng-repeat="user in users">
+      <li class="id">{{user.id}}</li>
+      <li class="name">{{user.name}}</li>
+      <li class="gender">{{user.gender}}</li>
+      <li class="nationality">{{user.nationality}}</li>
+      <li class="weapon">{{user.weapon}}</li>
+      <li class="actions">
+        <button class="delete" ng-click="deleteUser(user)">删除</button>
+      </li>
+    </ul>
+  </div>
+</center>
+
+<div dialog="dialog">
+  {{dialog.content}}
+</div>
