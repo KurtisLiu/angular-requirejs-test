@@ -1,11 +1,10 @@
 # Build and Release Folders
-bin/
 bin-debug/
 bin-release/
 
 # Other files and folders
 .settings/
-coverage/
+report/
 node_modules/
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
